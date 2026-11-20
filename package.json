@@ -1,0 +1,15 @@
+{
+  "name": "expense-tracker",
+  "version": "1.0.0",
+  "description": "แอปบันทึกรายรับ-รายจ่าย บน Google Apps Script เก็บข้อมูลใน Google Sheets และไฟล์แนบใน Google Drive",
+  "private": true,
+  "scripts": {
+    "login": "clasp login",
+    "push": "clasp push",
+    "open": "clasp open-script",
+    "deploy": "clasp deploy"
+  },
+  "devDependencies": {
+    "@google/clasp": "^2.4.2"
+  }
+}
